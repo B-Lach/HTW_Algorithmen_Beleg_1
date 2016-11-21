@@ -9,9 +9,9 @@ public interface ListInterface<T> {
 	
 	public void add(T obj, int index);
 	
-	public T get(int index);
+	public void print(int index);
 	
-	public T[] getAll();
+	public void printAll();
 	
 	public int count();
 	
