@@ -19,7 +19,7 @@ public interface ListInterface<T> {
 	
 	public void deleteAll();
 	
-	public void find(String forname, String surname, int id, Courses course);
+	public T[] find(String forname, String surname, int id, Courses course);
 	
 	public void sortUsingBubble();
 	
